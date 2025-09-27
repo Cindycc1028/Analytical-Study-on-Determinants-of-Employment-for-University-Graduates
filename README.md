@@ -1,5 +1,6 @@
 # Analytical-Study-on-Determinants-of-Employment-for-University-Graduates
 该数据集模拟了10,000名大学生的学术与职业档案，聚焦于影响就业结果的关键因素。包含智商（IQ）、学业表现、累积平均绩点（CGPA）、实习经历、沟通能力等特征。
+###SQL数据预处理
 -- 1. 查看数据概览
 SELECT 
     COUNT(*) as total_records,
@@ -30,7 +31,7 @@ ORDER BY placement_rate DESC;
 
 
 
-
+###Python建模分析
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
